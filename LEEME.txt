@@ -1,0 +1,44 @@
+INNOVARE STUDIO — cómo usar tu sitio
+=====================================
+
+ARCHIVOS
+- index.html      → el sitio completo (una sola página)
+- css/style.css   → colores, tipografías, animaciones
+- js/script.js    → menú, cursor, filtro de proyectos, animaciones al hacer scroll
+- images/         → aquí van tus fotos (ahora hay 14 de relleno)
+
+CÓMO VERLO
+Abre index.html directamente en tu navegador (doble clic). No necesita instalación
+ni servidor — es HTML, CSS y JS puro.
+
+CÓMO REEMPLAZAR LAS FOTOS
+1. Manda tus fotos de proyectos.
+2. Yo (o tú) las renombro para que coincidan con los archivos actuales:
+   images/proyecto-01.jpg, images/proyecto-02.jpg, ... hasta proyecto-14.jpg
+3. Sustituye el archivo dentro de la carpeta /images con el mismo nombre
+   (o dime los nombres/orden que quieres y lo ajusto yo).
+4. Si tienes más o menos de 14 proyectos, dímelo y agrego/quito bloques en
+   index.html — cada proyecto es un bloque <a class="grid-item"> que puedes
+   copiar/pegar.
+
+CÓMO CAMBIAR TEXTOS
+- Título del hero: dentro de <section class="hero"> en index.html
+- Nombre y categoría de cada proyecto: <span class="grid-item-name"> y
+  <span class="grid-item-tag"> de cada bloque
+- Categorías del filtro (Mobiliario / Producto / Empaque / Concepto):
+  cámbialas en la barra de filtros y en cada data-category="..." de los
+  proyectos para que coincidan
+- Correo / WhatsApp / Instagram: en <footer> al final del archivo
+- Ubicación: "Monterrey, N.L. — México" en el footer
+
+PALETA Y TIPOGRAFÍA (ya aplicada, definida en css/style.css :root)
+- Crema fondo:      #F5F0E8
+- Crema profundo:   #EBE2D4
+- Tinta (texto):    #2B2621
+- Piedra (gris):    #8A8078
+- Terracota acento: #C1603D
+- Tipografía display: Fraunces (serif elegante, usada en títulos)
+- Tipografía texto:   Inter (sans, usada en menú, párrafos, etiquetas)
+
+Cuando me mandes las fotos, dime también los nombres reales de los proyectos
+y sus categorías, y te dejo todo acomodado.
